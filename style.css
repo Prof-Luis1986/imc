@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(45deg, #c0a862, #f9e2b5);
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el contenedor principal */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Ajusta el margen superior según tus necesidades */
+}
+
+/* Estilos para los campos de entrada */
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón */
+.botones {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #4285f4; /* Color de fondo del botón */
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para el botón en estado hover */
+.botones:hover {
+    background-color: #34a853; /* Cambia el color de fondo al pasar el mouse */
+    transform: scale(1.1); /* Cambia el tamaño del botón al pasar el mouse */
+}
